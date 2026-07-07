@@ -12,9 +12,7 @@ public class TestSelenium01 {
       ChromeDriver driver = new ChromeDriver();
       driver.get("https://app.vwo.com");
       System.out.println(driver.getTitle());
-
-
-
+      driver.quit();
 
   }
 
